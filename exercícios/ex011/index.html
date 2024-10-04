@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>imagem dinâmica</h1>
+    <p>Tende abrir esse site em vários dispositivos diferente ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 740px)" srcset="Imagens/FotoP.png" type="image/png">
+        <source media="(max-width: 1040px)" srcset="Imagens/FotoM.png" type="image/png">
+        <img src="Imagens/FotoG.png" alt="Imsgem Flexivel">
+    </picture>
+    <h1>Reproduzindo Áudios</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML.</p>
+    <audio src="midia/Ragnarok.unknown" controls autoplay></audio>    
+    <h2>Tratando erro de conversao da musica</h2>
+    <audio preload="metadata" autoplay controls>
+        <source src="midia/AWalkIntoSpace-TopherMohrandAlexElena.mp3" type="audio/mpeg">
+        <source src="midia/AWalkIntoSpace-TopherMohrandAlexElena.ogg" type="audio/ogg">
+        <source src="midia/AWalkIntoSpace-TopherMohrandAlexElena.wav" type="audio/wav">    
+        <p>Infezmente seu navegador nao consegue reproduzir áudio. <a   href="midia/AWalkIntoSpace-TopherMohrandAlexElena.mp3">Clique para download MP3</a></p>    
+    </audio>
+     
+</body>
+</html>

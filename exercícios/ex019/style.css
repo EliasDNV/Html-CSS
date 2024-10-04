@@ -1,0 +1,36 @@
+@charset "UTF-8";
+/*
+    EM HTML É   ID  = CSS É # 1 elemento 
+    EM HTML É CLASS = CSS É . varios css
+    <SPAN> é usado no html em partes de trechos 
+    para deixar negrito ou com outra tonalidade 
+*/
+
+body{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(80, 241, 188, 0.89);
+}
+#bold{
+    color: rgb(241, 3, 3);
+}
+h1{
+    color: rgb(2, 90, 32);
+}
+h1#principal{
+    color: black;
+    text-align: center;
+    background-color: rgba(51, 29, 3, 0.452);
+}
+h2{
+    color: rgb(36, 114, 114);
+}
+.basico{
+    color: forestgreen;  
+}
+.intermediario{
+    color: rgb(194, 149, 37);
+}
+.avançado{
+    color: brown;
+}
