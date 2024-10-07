@@ -11,13 +11,19 @@
             padding: ppx;
         }
        body{
-        background: black url(imagem/wallpaper002.jpg) center center/cover no-repeat fixed;
+        background-color: rgba(0, 255, 255, 0.418);
         margin: 0px;
         padding: 0px;
        }
-       body > .primeiro{
+       body > #imagem1{
+        background: black url(imagem/wallpaper002.jpg) center center/cover no-repeat fixed;
+        margin: 0px;
+        padding: 15px;
+        box-shadow: inset 6px 6px 13px 6px #11111142;
+       }
+       #imagem1 > .primeiro{
         background-color: black;
-        width: 100vw;
+        width: 100vw;  
        }
        .primeiro > h1{
         color: #ffffff;
@@ -25,34 +31,16 @@
         text-align: center;
         margin-top: 0px;
        }
-
-       #segundafixa{
-        background: rgb(0, 0, 0) url(imagem/wallpaper002.jpg) center center/cover no-repeat fixed;
-        display: inline-block;
-        margin-bottom: 10px;
-        margin-top: 10px;
-        
-       }
-       #segundainterna{
-        width: 650px;
-        display: inline-block;
-        padding: 0px 10px 10px 10px;
-        color: #ffffff;
-        font-size: 1.2em;
-        background-color: #00000093; 
-       }
-       .segundadentro{
-        margin: 0;
-        padding: 10px;
-       }
        main{
-        background-color: aqua;
-        width: 400px;
+        background-color: rgba(165, 190, 190, 0.63);
+        font-size: 1.3em;
+        text-shadow: 1px black;
+        text-indent: 10px;
         padding: 10px;
         text-align: justify;
-        margin: auto;
-        border: 1px solid darkblue;
+        margin: 2vw 12vw 2vw 12vw;
         border-radius: 15px;
+        font-family: Arial, Helvetica, sans-serif;      
        }
     #divs{
         text-align: justify;
@@ -63,14 +51,33 @@
         background-color: #ffffff;
         text-align: justify;
         width: 98,5%;
-        padding: 10px;
+        padding-left: 10px;
         margin: 0px;
-        height: 100%;
-        margin-top: 10px;
+        padding-top: 10vh;
+        padding-bottom: 10vh; 
+        padding-right: 10vw;
+       
     }
     #meioquadrado{
         width: 500px;
         font-size: 1.2em;
+    }
+    #segundafixa{
+        background: rgb(0, 0, 0) url(imagem/wallpaper002.jpg) center center/cover no-repeat fixed; 
+        box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.247);  
+    }
+    #segundainterna{
+    width: 650px;
+    display: inline-block;;
+    margin: 15px;
+    padding: 0px 10px 10px 10px;
+    color: #ffffff;
+    font-size: 1.2em;
+    background-color: #643434a9; 
+    }
+    .segundadentro{
+    margin: 0px;
+    padding: 10px;
     }
     footer{
         border: 3px solid black;
@@ -85,21 +92,24 @@
     </style>
 </head>
 <body>
+    
     <div class="primeiro">
         <h1>projeto</h1>
     </div>
-    <main>
-        <h1>testa</h1>
-        <p>
-            variavel
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta voluptatem vero, veritatis reprehenderit accusantium, quibusdam beatae nisi illo libero iusto corporis dolor cum exercitationem iure. Inventore velit illum dolores iusto, vitae officiis obcaecati maxime reprehenderit sapiente, magni adipisci magnam sed corporis eum deleniti quasi eius! Tempora consequatur nam voluptas enim libero. Id, laudantium omnis! Laboriosam quia sequi voluptate sint rem cum a, praesentium tempore voluptas facere tenetur magnam, deleniti molestias assumenda quisquam accusamus, ea consequatur neque magni blanditiis necessitatibus totam quas asperiores nesciunt. In consequuntur repudiandae fugiat nostrum odio quos quidem natus, officiis magni accusantium, recusandae hic corrupti veniam voluptates!
-        </p>
-        <div id="divs">
-        
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore reprehenderit, harum ipsa iste sapiente fuga nobis deleniti voluptatum tempora at atque quia aspernatur aut consectetur voluptas repudiandae quibusdam in eveniet rem est illo, quae totam. Temporibus provident impedit a corrupti ratione. Quia, harum distinctio reprehenderit itaque, ad laborum consequatur dicta consectetur vero ratione minima totam earum nulla minus obcaecati dolorum quidem amet rem enim. Nulla, hic quae! Error sequi laboriosam inventore excepturi illo recusandae ullam doloremque perspiciatis incidunt ex soluta dignissimos amet at ducimus exercitationem quod totam neque unde provident delectus optio natus, assumenda aliquam? Rem odio perspiciatis esse ratione!
-           
-        </div>
-    </main>
+    <div id="imagem1">
+        <main>
+            <h1>Testa lorem</h1>
+            <p>
+                variavel
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta voluptatem vero, veritatis reprehenderit accusantium, quibusdam beatae nisi illo libero iusto corporis dolor cum exercitationem iure. Inventore velit illum dolores iusto, vitae officiis obcaecati maxime reprehenderit sapiente, magni adipisci magnam sed corporis eum deleniti quasi eius! Tempora consequatur nam voluptas enim libero. Id, laudantium omnis! Laboriosam quia sequi voluptate sint rem cum a, praesentium tempore voluptas facere tenetur magnam, deleniti molestias assumenda quisquam accusamus, ea consequatur neque magni blanditiis necessitatibus totam quas asperiores nesciunt. In consequuntur repudiandae fugiat nostrum odio quos quidem natus, officiis magni accusantium, recusandae hic corrupti veniam voluptates!
+            </p>
+            <div id="divs">
+            
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore reprehenderit, harum ipsa iste sapiente fuga nobis deleniti voluptatum tempora at atque quia aspernatur aut consectetur voluptas repudiandae quibusdam in eveniet rem est illo, quae totam. Temporibus provident impedit a corrupti ratione. Quia, harum distinctio reprehenderit itaque, ad laborum consequatur dicta consectetur vero ratione minima totam earum nulla minus obcaecati dolorum quidem amet rem enim. Nulla, hic quae! Error sequi laboriosam inventore excepturi illo recusandae ullam doloremque perspiciatis incidunt ex soluta dignissimos amet at ducimus exercitationem quod totam neque unde provident delectus optio natus, assumenda aliquam? Rem odio perspiciatis esse ratione!
+            
+            </div>
+        </main>
+    </div>
     <div id="meio">
         <div id="meioquadrado">
             <h1>abelhas</h1>
