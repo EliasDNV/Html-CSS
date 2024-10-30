@@ -10,12 +10,26 @@
     <form action="cadastro.php" method="get" autocomplete="on">
         <p>
             <label for="inome">Nome</label>
-            <Input type="text" name="nome" id="nome" required maxlength="30" placeholder="Nome completo" autocomplete="name">
+            <Input type="text" name="nome" id="nome" required minlength="3" maxlength="30" placeholder="Nome completo" autocomplete="name">
         </p>
         <p>
             <label for="imedia">Média</label>
-            <input type="number" name="media" id="imedia">
+            <input type="number" name="media" id="imedia" min="0" max="10" value="5" 
+            step="0.5" required>
         </p>
+        <P>
+            <label for="">.</label>
+            <input type="file">
+        </P>
+        <p><label for=""></label>
+        <input type="time"></p>
+
+
+
+
+
+
+
         <p>
             <input type="submit" value="Enviar">
             <input type="reset" value="Limpar">
