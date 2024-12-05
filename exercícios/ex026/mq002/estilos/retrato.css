@@ -3,4 +3,5 @@
 /*Aparelho em pe (postrait)*/
 body{
     background-image: url(../Imagem/cev-portrait.jpg);
+    background-position: center bottom;
 }
