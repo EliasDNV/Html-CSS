@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: dimgrey;
+    color: white;
+    display: flex;
+}
+header > h1 {
+    padding: 10px;
+}
+header > section {
+    padding: 10px;
+    justify-content: space-between;
+}
+li{
+    background-color: red;
+    width: 70px;
+    height: 20px;
+    border-radius: 10px;
+    display: inline;
+
+}
+@media screen and (min-width: 690px){
+    header{
+        width: 100%;
+
+    }
+    header > section{
+        justify-content: right;
+    }
+}
